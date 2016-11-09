@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>旋转</title>
+</head>
+
+<body>
+<canvas width="500px" height="500px"></canvas>
+<script>
+	var canvas=document.getElementsByTagName("canvas")[0];
+	var context=canvas.getContext("2d");
+	
+	context.translate(250,20);
+	
+	
+	
+	for(var i=0;i<50;i++){
+		context.translate(25,25);
+		context.rotate(12*Math.PI/180);
+		context.scale(0.95,0.95);
+		context.fillStyle="rgba(255,0,0,0.5)";
+		context.fillRect(0,0,100,50);	
+	}
+	
+</script>
+</body>
+</html>

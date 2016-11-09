@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>学生页面</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/position.js"></script>
+	<script type="text/javascript">
+		window.onload=function(){
+			//红色苹果
+			var leftDiv=document.getElementById("leftDiv");
+			for(var i=0;i<=4;i++){
+				var redApple=document.createElement("img");
+				redApple.title="社会实践"+(i+1);
+				redApple.src="icons/icon-04.png";
+
+				leftDiv.appendChild(redApple);
+
+				redApple.style.position="relative";
+				redApple.style.top=redArr[i].top;
+				redApple.style.left=redArr[i].left;
+
+				redApple.onclick=function(){
+					var tab=document.getElementById("tab");
+					tab.style.display="block";
+				}
+
+			}
+		}
+	</script>
+</head>
+<body>
+	<div class="bigDiv">
+		<div class="bottomDiv">
+			<div class="leftDiv" id="leftDiv">
+				<img src="icons/icon-02.png" class="singleTree">
+			</div>
+			<table class="tab" id="tab">
+				<tr>
+					<td>姓名</td>
+					<td>张三</td>
+				</tr>
+				<tr>
+					<td>活动名称</td>
+					<td>社会实践</td>
+				</tr>
+				<tr>
+					<td>实践名称</td>
+					<td>爱心帮助老人</td>
+				</tr>
+				<tr>
+					<td>得分</td>
+					<td>88</td>
+				</tr>
+				
+				<tr>
+					<td>评价等级</td>
+					<td>A</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

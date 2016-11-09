@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>时钟</title>
+	<style type="text/css">
+		body{
+			margin: 0 auto;
+		}
+		#Mycanvas{
+			background: skyblue;
+			
+		}
+	</style>
+</head>
+<body>
+	<canvas width="500" height="500" id="Mycanvas"></canvas>
+	<script type="text/javascript">
+	function drawNow(){
+		var Mycanvas = document.getElementById("Mycanvas");
+		//获取canvas上下文对象
+		var mc = Mycanvas.getContext("2d");
+
+		var date = new Date();
+		var hour=date.getHours();
+		var minute=date.getMinutes();
+		var second=date.getSeconds();
+		hour = hour + minute/60;
+		minute = minute + second/60;
+
+		mc.clearRect(0,0,500,500);//清除画布
+		mc.beginPath();
+		//开始坐标 半径 弧度 顺逆时针
+		mc.arc(250,250,200,360*Math.PI/180,false);
+		mc.stroke();//绘制空心圆
+		mc.fillStyle = "yellow";
+		mc.closePath();
+
+		mc.save();
+		mc.translate(250,250);
+		mc.rotate(second*6*Math.PI/180);
+
+		mc.beginPath();//开始绘制
+		mc.strokeStyle = "red";//设置线条颜色
+		mc.lineWidth = 1;//设置线条粗细
+		mc.moveTo(0,20);//开始坐标
+		mc.lineTo(0,-170);//结束坐标
+		mc.stroke();//下笔绘制图形
+		mc.closePath();
+		mc.restore();
+
+		mc.save();
+		mc.translate(250,250);
+		mc.rotate(minute*6*Math.PI/180);
+
+		mc.beginPath();//开始绘制
+		mc.strokeStyle = "black";//设置线条颜色
+		mc.lineWidth = 3;//设置线条粗细
+		mc.moveTo(0,0);//开始坐标
+		mc.lineTo(0,-130);//结束坐标
+		mc.stroke();//下笔绘制图形
+		mc.closePath();
+		mc.restore();
+
+		mc.save();
+		mc.translate(250,250);
+		mc.rotate(hour*30*Math.PI/180);
+		mc.beginPath();//开始绘制
+		mc.strokeStyle = "black";//设置线条颜色
+		mc.lineWidth = 5;//设置线条粗细
+		mc.moveTo(0,0);//开始坐标
+		mc.lineTo(0,-80);//结束坐标
+		mc.stroke();//下笔绘制图形
+		mc.closePath();
+		mc.restore();
+
+		mc.beginPath();
+		mc.strokeStyle = "black";
+		mc.lineWidth = 7;
+		mc.moveTo(250,50);
+		mc.lineTo(250,65);
+		mc.stroke();
+		mc.closePath();
+		for(var i = 1;i<=12;i++){
+			mc.save();//复制一份原图,产生一个空间
+			mc.translate(250,250);//设置旋转点
+			mc.rotate((i*30)*Math.PI/180);
+		
+			mc.beginPath();
+			mc.moveTo(0,-200);
+			mc.lineTo(0,-185);
+			mc.closePath();
+			mc.stroke();
+			mc.restore();
+		}
+
+		mc.beginPath();
+		mc.strokeStyle = "black";
+		mc.lineWidth = 2;
+		mc.moveTo(250,50);
+		mc.lineTo(250,65);
+		mc.stroke();
+		mc.closePath();
+		for(var i = 1;i<=60;i++){
+			mc.save();//复制一份原图,产生一个空间
+			mc.translate(250,250);//设置旋转点
+			mc.rotate((i*6)*Math.PI/180);
+		
+			mc.beginPath();
+			mc.moveTo(0,-200);
+			mc.lineTo(0,-185);
+			mc.closePath();
+			mc.stroke();
+			mc.restore();
+		}
+
+			mc.beginPath();
+			mc.arc(250,250,5,0,360,false);
+			mc.closePath();
+			//设置交叉点填充
+			mc.fillStyle="blue";
+			mc.fill();
+			mc.stroke();
+			mc.restore();
+	}
+		 
+		 	drawNow();
+		 	setInterval(drawNow,1000);
+	
+
+			
+	</script>
+</body>
+</html>

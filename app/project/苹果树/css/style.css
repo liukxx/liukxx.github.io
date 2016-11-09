@@ -1,0 +1,48 @@
+.bigDiv{
+	height: 600px;
+	text-align: center
+}
+
+.bigDiv .bg{
+	width: 1408px;
+	height: 580px;
+	border:1px solid red;
+	margin:0 auto;
+	background: url("../icons/icon-07.png") no-repeat;
+	background-size: 100% 100%
+}
+
+.tudi{
+	margin-top: 220px
+}
+
+.bigDiv .bottomDiv{
+	width: 1408px;
+	height: 580px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.bigDiv .bottomDiv .leftDiv{
+	width: 990px;
+	height: 580px;
+	border:1px solid blue;
+	float: left;
+	background: url("../icons/icon-03.png") no-repeat;
+	background-size: 100% 100%
+}
+.singleTree{
+	margin-top: 160px
+}
+.tab{
+	border-collapse: collapse;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	display: none
+}
+.tab tr td{
+	width: 120px;
+	height: 35px;
+	border:1px solid black;
+
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			list-style: none;
+			padding: 2px;
+		}
+		li:hover{
+			background-color: blue;
+		}
+		#content_left{
+			width: 300px;
+			height: 700px;
+			float: left;
+			background: skyblue;
+			border: 5px dashed red;
+			text-align: center;
+			line-height: 50px;
+		}
+		img{
+			width: 100px;
+			height: 100px;
+		}
+		#content_right{
+			width:300px;
+			height: 700px;
+			float: left;
+			background: yellow;
+			border: 5px solid red; 
+			margin-left: 40px;
+		}
+		#content_right_xs li{
+			float: left;
+			width: 90px;
+			height: 100px;
+			margin-right: 20px;
+			margin-bottom: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div id="content_left">
+		<h1 width="200" heiget="100">今日菜单</h1>
+		<li draggable="true" id="left_1" ondragstart="save(event)">
+		<img id="left_1" src="images/1.jpg">山楂炖猪蹄
+		</li>
+		<li draggable="true" id="left_2" ondragstart="save(event)">
+		<img id="left_2" src="images/2.jpg">香肠腊八粥
+		</li>
+		<li draggable="true" id="left_3" ondragstart="save(event)">
+		<img id="left_3" src="images/3.jpg">培音儿蒸蛋
+		</li>
+		<li draggable="true" id="left_4" ondragstart="save(event)">
+		<img id="left_4" src="images/4.jpg">梅镇梅花糕
+		</li>
+		<li draggable="true" id="left_5" ondragstart="save(event)">
+		<img id="left_5" src="images/5.jpg">爱心波蛋卷
+		</li>
+	</div>
+	<div id="content_right">
+		<h2>点菜</h2>
+		<ul id="content_right_xs"></ul>
+	</div>
+	<script type="text/javascript">
+		function save(e){
+			e.dataTransfer.setData("text/plain",e.target.id);
+		}
+		
+		var content_right = document.getElementById("content_right");
+		var content_right_xs = document.getElementById("content_right_xs");
+		content_right.addEventListener("dragenter",function(e){
+			var id = e.dataTransfer.getData("text/plain");
+			//通过ID将menu这个元素加入收藏列表
+			var c = document.getElementById(id).cloneNode(true);
+			content_right_xs.appendChild(c);
+		},false);
+
+		content_right[0].ondrop = function(event){
+			event.preventDefault;
+			event.stopPropagation;
+		}
+
+		document.ondragend =function(e){e.preventDefault();}
+		document.ondragover =function(e){e.stopPropagation();}
+	</script>
+</body>
+</html>

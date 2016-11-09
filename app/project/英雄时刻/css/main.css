@@ -1,0 +1,905 @@
+/* CSS Document */
+
+.header{ width:1340px; height:61px;}
+.header .logo{ width:100px; height:61px; background:url(images/images/logo_02.png) no-repeat center; margin-left:75px; float:left;}
+.header .top{ overflow:hidden; float:left;}
+.header .top li{   float:left; font-size:20px; margin-left:80px; margin-top:15px; }
+.header .sogo{ width:170px; height:30px; border:1px solid #cccccc; float:left; margin-left:230px; margin-top:15px;}
+.sogo h1{ float:left; margin-top:5px;color:#767676;}
+.header .name{ width:100px; height:61px; background-color:#CCCCCC; float:left; background:url(images/images/images/1_05.png) no-repeat center;}
+.name h1{ float:right; margin-top:20px;}
+.header .name1{ width:75px; height:61px; float:left; background:url(images/images/images/images/2_08.png) no-repeat center;}
+.name1 h1{ float:right; margin-top:20px}
+.header .name2{ width:75px; height:61px; float:left; background:url(images/images/images/images/2_13.png) no-repeat center;}
+.name2 h1{  float:right; margin-top:20px}
+.header .name3{ width:75px; height:61px; float:left; background:url(images/images/images/images/2_10.png) no-repeat center;}
+.name3 h1{  float:right; margin-top:20px; color:#FF0000;}
+
+
+.images{ width:1340px; height:635px; background-color:#1b222c;}
+.images .i1{ width:1025px; height:635px; background:url(images/images/images/images/3_12.png) no-repeat center; margin-left:70px; float:left;}
+.images .i2 { width:170px; height:612px; float:left; margin-top:25px;}
+.i2 .l1{ width:170px; height:102px; background-color:#CC9933; background:url(images/images/images/images/4_15.png) no-repeat center;}
+.i2 .l2{ width:170px; height:102px; background-color:#00CC33; background:url(images/images/images/images/4_17.png)no-repeat center;}
+.i2 .l3{ width:170px; height:102px; background-color:#993399; background:url(images/images/images/images/4_21.png)no-repeat center;}
+.i2 .l4{ width:170px; height:102px; background-color:#FFCC00; background:url(images/images/images/images/4_22.png)no-repeat center;}
+.i2 .l5{ width:170px; height:102px; background-color:#336699; background:url(images/images/images/images/4_24.png)no-repeat center;}
+.i2 .l6{ width:170px; height:102px; background-color:#FFFFFF; background:url(images/images/images/images/4_27.png)no-repeat center;}
+.images .i3{ width:50px; height:212px; float:left; margin-top:260px;}
+.i3 li.s1{ width:48px; height:48px; background:url(images/images/images/images/xi_03.png) no-repeat center; margin-left:1px;}
+.i3 li.s2{ width:48px; height:48px; background:url(images/images/images/images/xi_07.png) no-repeat center; margin-left:1px; margin-top:5px;}
+.i3 li.s3{ width:48px; height:48px; background:url(images/images/images/images/xi_10.png) no-repeat center; margin-left:1px; margin-top:5px;}
+.i3 li.s4{ width:48px; height:48px; background:url(images/images/images/images/xi_12.png) no-repeat center; margin-left:1px; margin-top:5px;}
+
+
+.quanmin{ width:1340px; height:300px; background-color:#171a2d;}
+.quanmin .min1{ width:290px; height:300px; float:left; margin-left:70px;}
+.min1 .boy1{ width:290px; height:70px; background:url(images/images/images/images/lo_15.png) no-repeat left; float:left;}
+.boy1 h1{ width:75px; height:20px; float:left; margin-left:40px; margin-top:25px; color:#FF0000; font-size:15px;}
+.min1 .boy2{ width:290px; height:230px; float:left;}
+.boy2 .one{ width:135px; height:100px; background-color:#CCCCCC; float:left; margin-top:10px; background:url(images/images/images/images/q_25.png) no-repeat center;}
+.one h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .two{ width:135px; height:100px; background-color:#99FF99; float:right; margin-top:10px; background:url(images/images/images/images/q_27.png) no-repeat center;}
+.two h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .three{ width:135px; height:100px; background-color:#99FF33; float:left; margin-top:10px; background:url(images/images/images/images/q_31.png) no-repeat center;}
+.three h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .four{ width:135px; height:100px; background-color:#FFFF33; float:right; margin-top:10px; background:url(images/images/images/images/q_33.png) no-repeat center;}
+.four h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+
+
+.quanmin .min2{ width:290px; height:300px; float:left; margin-left:10px;}
+.min2 .boy1{ width:290px; height:70px; background:url(images/images/images/images/lo_17.png) no-repeat left; float:left;}
+.boy1 h1{ width:75px; height:20px; float:left; margin-left:40px; margin-top:25px; color:#FF0000; font-size:15px;}
+.min2 .boy2{ width:290px; height:230px; float:left;}
+.boy2 .one{ width:135px; height:100px; background-color:#CCCCCC; float:left; margin-top:10px; background:url(images/images/images/images/ha_07.png) no-repeat center;}
+.one h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .two{ width:135px; height:100px; background-color:#99FF99; float:right; margin-top:10px; background:url(images/images/images/images/ha_10.png) no-repeat center;}
+.two h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .three{ width:135px; height:100px; background-color:#99FF33; float:left; margin-top:10px; background:url(images/images/images/images/ha_15.png) no-repeat center;}
+.three h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .four{ width:135px; height:100px; background-color:#FFFF33; float:right; margin-top:10px; background:url(images/images/images/images/ha_29.png) no-repeat center;}
+.four h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+
+
+.quanmin .min3{ width:290px; height:300px; float:left; margin-left:10px;}
+.min3 .boy1{ width:290px; height:70px; background:url(images/images/images/images/lo_20.png) no-repeat left; float:left;}
+.boy1 h1{ width:75px; height:20px; float:left; margin-left:40px; margin-top:25px; color:#FF0000; font-size:15px;}
+.min3 .boy2{ width:290px; height:230px; float:left;}
+.boy2 .one{ width:135px; height:100px; background-color:#CCCCCC; float:left; margin-top:10px; background:url(images/images/images/images/ha_13.png) no-repeat center;}
+.one h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .two{ width:135px; height:100px; background-color:#99FF99; float:right; margin-top:10px; background:url(images/images/images/images/q_27.png) no-repeat center;}
+.two h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .three{ width:135px; height:100px; background-color:#99FF33; float:left; margin-top:10px; background:url(images/images/images/images/q_31.png) no-repeat center;}
+.three h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .four{ width:135px; height:100px; background-color:#FFFF33; float:right; margin-top:10px; background:url(images/images/images/images/q_33.png) no-repeat center;}
+.four h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+
+.quanmin .min4{ width:290px; height:300px; float:left; margin-left:10px;}
+.min4 .boy1{ width:290px; height:70px; background:url(images/images/images/images/w_03.png) no-repeat left; float:left;}
+.boy1 h1{ width:75px; height:20px; float:left; margin-left:40px; margin-top:25px; color:#FF0000; font-size:15px;}
+.min4 .boy2{ width:290px; height:230px; float:left;}
+.boy2 .one{ width:135px; height:100px; background-color:#CCCCCC; float:left; margin-top:10px; background:url(images/images/images/images/q_25.png) no-repeat center;}
+.one h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .two{ width:135px; height:100px; background-color:#99FF99; float:right; margin-top:10px; background:url(images/images/images/images/q_27.png) no-repeat center;}
+.two h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .three{ width:135px; height:100px; background-color:#99FF33; float:left; margin-top:10px; background:url(images/images/images/images/q_31.png) no-repeat center;}
+.three h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+.boy2 .four{ width:135px; height:100px; background-color:#FFFF33; float:right; margin-top:10px; background:url(images/images/images/images/q_33.png) no-repeat center;}
+.four h1{ width:135px; height:15px; font-size:10px; margin-top:90px; color:#FFFFFF;}
+
+
+.future{ width:1340px; height:380px; background-color:#dcdcdc;}
+.future .ture1{ width:200px; height:310px; float:left; margin-top:35px; margin-left:70px;}
+.ture1 .one{ width:200px; height:200px; background:url(images/images/images/images/mei_06.png) no-repeat center;}
+.ture1 .two{ width:200px; height:110px; background:url(images/images/images/images/mei_10.png) no-repeat center;}
+.future .ture2{ width:275px; height:310px; background-color:#CCFFCC; float:left; margin-top:35px; margin-left:2px;}
+.ture2 .one{ width:275px; height:155px; background:url(images/images/images/images/ll_06.png) no-repeat center;}
+.ture2 .two{ width:275px; height:155px; background:url(images/images/images/images/ll_10.png) no-repeat center;}
+.future .ture3{ width:200px; height:310px; background-color:#FFCC00; float:left; margin-top:35px; margin-left:2px;}
+.ture3 .one{ width:200px; height:200px; background:url(images/images/images/images/mei_03.png) no-repeat center;}
+.ture3 .two{ width:200px; height:110px; background:url(images/images/images/images/mei_09.png) no-repeat center;}
+.future .ture4{ width:235px; height:310px; background-color:#0099FF; float:left; margin-top:35px; margin-left:2px;}
+.ture4 .one{ width:235px; height:130px; background:url(images/images/images/images/kk_05.png) no-repeat center;}
+.ture4 .two{ width:235px; height:180px; background:url(images/images/images/images/kk_13.png) no-repeat center;}
+.future .ture5{ width:270px; height:310px; background-color:#FFFFFF; float:left; margin-top:35px; margin-left:2px;}
+
+.ture5 .fuli{  width:270px; height:75px; }
+.fuli .feedback{ width:180px; height:20px; color:red; margin-top:10px;}
+.fuli .seeds{ width:180px; height:10px;  margin-left:70px; margin-top:10px; font-size:14px;}
+.fuli .dia{ margin-top:10px;}
+
+.ture5 .daka{  width:270px; height:75px; }
+.daka .feedback{ width:180px; height:20px;  color:red;}
+.daka .seeds{ width:180px; height:15px;  margin-left:60px; margin-top:10px;}
+.daka .dia{ margin-top:10px;}
+
+.ture5 .sun{  width:270px; height:75px; }
+.sun .feedback{ width:180px; height:20px; color:red;}
+.sun .seeds{ width:180px; height:15px;  margin-left:60px; margin-top:10px;}
+.sun .dia{ margin-top:10px;}
+
+.ture5 .zhibo{  width:270px; height:75px; }
+.zhibo .feedback{ width:180px; height:20px; color:red;}
+.zhibo .seeds{ width:180px; height:15px;  margin-left:40px; margin-top:10px;}
+
+
+.web{ width:1340px; height:140px; background-color:#dcdcdc;}
+.web .web1{ width:185px; height:100px; float:left; margin-left:70px; background:url(images/images/images/images/xx_03.png) no-repeat center;}
+.web .web2{ width:185px; height:100px; float:left; margin-left:16px; background:url(images/images/images/images/xx_06.png) no-repeat center;}
+.web .web3{ width:185px; height:100px; float:left; margin-left:16px; background:url(images/images/images/images/xx_09.png) no-repeat center;}
+.web .web4{ width:185px; height:100px; float:left; margin-left:16px; background:url(images/images/images/images/xx_12.png) no-repeat center;}
+.web .web5{ width:185px; height:100px; float:left; margin-left:16px; background:url(images/images/images/images/xx_15.png) no-repeat center;}
+.web .web6{ width:185px; height:100px; float:left; margin-left:16px; background:url(images/images/images/images/xx_18.png) no-repeat center;}
+
+
+
+.rem{  width:1340px; height:285px; background-color:#dcdcdc;}
+.rem .rem1{ width:1190px; height:60px; margin:0 auto;}
+.rem1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/aa_26.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.rem1 .two{ width:85px; height:60px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.two h3{ float:left; margin-left:20px; margin-top:15px; font-size:20px; color:red;}
+.rem .rem2{ width:1190px; height:225px; margin:0 auto;}
+
+.rem2 .ll{  width:278px; height:225px; float:left;}
+.ll .mbn{ width:278px; height:155px; background:url(images/images/images/images/bb_33.png)}
+.ll .bnm{ width:278px; height:70px;}
+.ll .bnm .bnm1{ width:278px; height:35px;}
+.ll .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.rem2 .kk{  width:278px; height:225px; float:left; margin-left:26px;}
+.kk .mbn{ width:278px; height:155px;  background:url(images/images/images/images/bb_30.png)}
+.kk .bnm{ width:278px; height:70px;}
+.kk .bnm .bnm1{ width:278px; height:35px;}
+.kk .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.rem2 .yy{  width:278px; height:225px; float:left; margin-left:26px;}
+.yy .mbn{ width:278px; height:155px; background:url(images/images/images/images/bb_36.png)}
+.yy .bnm{ width:278px; height:70px; }
+.yy .bnm .bnm1{ width:278px; height:35px;}
+.yy .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.rem2 .xx{  width:278px; height:225px; float:left; margin-left:26px;}
+.xx .mbn{ width:278px; height:155px; background:url(images/images/images/images/bb_38.png)}
+.xx .bnm{ width:278px; height:70px;}
+.xx .bnm .bnm1{ width:278px; height:35px;}
+.xx .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+
+
+
+.spring{  width:1340px; height:245px; background-color:#dcdcdc;}
+.spring .spr{ width:1190px; height:60px; margin:0 auto;}
+
+.spr .qq{  width:278px; height:225px; float:left;}
+.qq .mbn{ width:278px; height:155px; background:url(images/images/images/images/bai_03.png)}
+.qq .bnm{ width:278px; height:70px;}
+.qq .bnm .bnm1{ width:278px; height:35px;}
+.qq .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.spr .ww{  width:278px; height:225px; float:left; margin-left:26px;}
+.ww .mbn{ width:278px; height:155px;  background:url(images/images/images/images/bai_03.png)}
+.ww .bnm{ width:278px; height:70px;}
+.ww .bnm .bnm1{ width:278px; height:35px;}
+.ww .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.spr .ee{  width:278px; height:225px; float:left; margin-left:26px;}
+.ee .mbn{ width:278px; height:155px; background:url(images/images/images/images/bai_03.png)}
+.ee .bnm{ width:278px; height:70px; }
+.ee .bnm .bnm1{ width:278px; height:35px;}
+.ee .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.spr .rr{  width:278px; height:225px; float:left; margin-left:26px;}
+.rr .mbn{ width:278px; height:155px; background:url(images/images/images/images/bai_03.png)}
+.rr .bnm{ width:278px; height:70px;}
+.rr .bnm .bnm1{ width:278px; height:35px;}
+.rr .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+
+.xiu{  width:1340px; height:285px; background-color:#dcdcdc;}
+.xiu .xiu1{ width:1190px; height:60px; margin:0 auto;}
+.xiu1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_03.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.xiu1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.xiu1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.xiu .xiu2{ width:1190px; height:225px; margin:0 auto;}
+
+.xiu2 .ll{  width:278px; height:225px; float:left;}
+.ll .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_03.png)}
+.ll .bnm{ width:278px; height:70px;}
+.ll .bnm .bnm1{ width:278px; height:35px;}
+.ll .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.xiu2 .kk{  width:278px; height:225px; float:left; margin-left:26px;}
+.kk .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_06.png)}
+.kk .bnm{ width:278px; height:70px;}
+.kk .bnm .bnm1{ width:278px; height:35px;}
+.kk .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.xiu2 .yy{  width:278px; height:225px; float:left; margin-left:26px;}
+.yy .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_09.png)}
+.yy .bnm{ width:278px; height:70px; }
+.yy .bnm .bnm1{ width:278px; height:35px;}
+.yy .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.xiu2 .xx{  width:278px; height:225px; float:left; margin-left:26px;}
+.xx .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_11.png)}
+.xx .bnm{ width:278px; height:70px;}
+.xx .bnm .bnm1{ width:278px; height:35px;}
+.xx .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.lushi{  width:1340px; height:285px; background-color:#dcdcdc;}
+.lushi .lu1{ width:1190px; height:60px; margin:0 auto;}
+.lu1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_07.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.lu1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.lu1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.lushi .lu2{ width:1190px; height:225px; margin:0 auto;}
+
+.lu2 .tt{  width:278px; height:225px; float:left;}
+.tt .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_17.png)}
+.tt .bnm{ width:278px; height:70px;}
+.tt .bnm .bnm1{ width:278px; height:35px;}
+.tt .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.lu2 .ii{  width:278px; height:225px; float:left; margin-left:26px;}
+.ii .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_18.png)}
+.ii .bnm{ width:278px; height:70px;}
+.ii .bnm .bnm1{ width:278px; height:35px;}
+.ii .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.lu2 .oo{  width:278px; height:225px; float:left; margin-left:26px;}
+.oo .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_19.png)}
+.oo .bnm{ width:278px; height:70px; }
+.oo .bnm .bnm1{ width:278px; height:35px;}
+.oo .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.lu2 .pp{  width:278px; height:225px; float:left; margin-left:26px;}
+.pp .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_21.png)}
+.pp .bnm{ width:278px; height:70px;}
+.pp .bnm .bnm1{ width:278px; height:35px;}
+.pp .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.huwai{  width:1340px; height:285px; background-color:#dcdcdc;}
+.huwai .wai1{ width:1190px; height:60px; margin:0 auto;}
+.wai1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_11.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.wai1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.wai1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.huwai .wai2{ width:1190px; height:225px; margin:0 auto;}
+
+.wai2 .qw{  width:278px; height:225px; float:left;}
+.qw .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_28.png)}
+.qw .bnm{ width:278px; height:70px;}
+.qw .bnm .bnm1{ width:278px; height:35px;}
+.qw .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.wai2 .qe{  width:278px; height:225px; float:left; margin-left:26px;}
+.qe .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_31.png)}
+.qe .bnm{ width:278px; height:70px;}
+.qe .bnm .bnm1{ width:278px; height:35px;}
+.qe .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.wai2 .qr{  width:278px; height:225px; float:left; margin-left:26px;}
+.qr .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_34.png)}
+.qr .bnm{ width:278px; height:70px; }
+.qr .bnm .bnm1{ width:278px; height:35px;}
+.qr .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.wai2 .qt{  width:278px; height:225px; float:left; margin-left:26px;}
+.qt .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_37.png)}
+.qt .bnm{ width:278px; height:70px;}
+.qt .bnm .bnm1{ width:278px; height:35px;}
+.qt .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.yingx{  width:1340px; height:285px; background-color:#dcdcdc;}
+.yingx .ying1{ width:1190px; height:60px; margin:0 auto;}
+.ying1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_15.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.ying1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.ying1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.yingx .ying2{ width:1190px; height:225px; margin:0 auto;}
+
+.ying2 .zx{  width:278px; height:225px; float:left;}
+.zx .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_44.png)}
+.zx .bnm{ width:278px; height:70px;}
+.zx .bnm .bnm1{ width:278px; height:35px;}
+.zx .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ying2 .zc{  width:278px; height:225px; float:left; margin-left:26px;}
+.zc .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_47.png)}
+.zc .bnm{ width:278px; height:70px;}
+.zc .bnm .bnm1{ width:278px; height:35px;}
+.zc .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ying2 .zv{  width:278px; height:225px; float:left; margin-left:26px;}
+.zv .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_49.png)}
+.zv .bnm{ width:278px; height:70px; }
+.zv .bnm .bnm1{ width:278px; height:35px;}
+.zv .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ying2 .zb{  width:278px; height:225px; float:left; margin-left:26px;}
+.zb .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_51.png)}
+.zb.bnm{ width:278px; height:70px;}
+.zb .bnm .bnm1{ width:278px; height:35px;}
+.zb .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.shouw{  width:1340px; height:285px; background-color:#dcdcdc;}
+.shouw .shou1{ width:1190px; height:60px; margin:0 auto;}
+.shou1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_23.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.shou1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.shou1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.shouw .shou2{ width:1190px; height:225px; margin:0 auto;}
+
+.shou2 .mn{  width:278px; height:225px; float:left;}
+.mn .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_67.png)}
+.mn .bnm{ width:278px; height:70px;}
+.mn .bnm .bnm1{ width:278px; height:35px;}
+.mn .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.shou2 .mb{  width:278px; height:225px; float:left; margin-left:26px;}
+.mb .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_69.png)}
+.mb .bnm{ width:278px; height:70px;}
+.mb .bnm .bnm1{ width:278px; height:35px;}
+.mb .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.shou2 .mv{  width:278px; height:225px; float:left; margin-left:26px;}
+.mv .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_71.png)}
+.mv .bnm{ width:278px; height:70px; }
+.mv .bnm .bnm1{ width:278px; height:35px;}
+.mv .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.shou2 .mc{  width:278px; height:225px; float:left; margin-left:26px;}
+.mc .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_73.png)}
+.mc .bnm{ width:278px; height:70px;}
+.mc .bnm .bnm1{ width:278px; height:35px;}
+.mc .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.danji{  width:1340px; height:285px; background-color:#dcdcdc;}
+.danji .dan1{ width:1190px; height:60px; margin:0 auto;}
+.dan1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_19.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.dan1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.dan1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.danji .dan2{ width:1190px; height:225px; margin:0 auto;}
+
+.dan2 .az{  width:278px; height:225px; float:left;}
+.az .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_56.png)}
+.az .bnm{ width:278px; height:70px;}
+.az .bnm .bnm1{ width:278px; height:35px;}
+.az .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dan2 .ax{  width:278px; height:225px; float:left; margin-left:26px;}
+.ax .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_57.png)}
+.ax .bnm{ width:278px; height:70px;}
+.ax .bnm .bnm1{ width:278px; height:35px;}
+.ax .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dan2 .ac{  width:278px; height:225px; float:left; margin-left:26px;}
+.ac .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_60.png)}
+.ac .bnm{ width:278px; height:70px; }
+.ac .bnm .bnm1{ width:278px; height:35px;}
+.ac .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dan2 .av{  width:278px; height:225px; float:left; margin-left:26px;}
+.av .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_61.png)}
+.av .bnm{ width:278px; height:70px;}
+.av .bnm .bnm1{ width:278px; height:35px;}
+.av .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dot{  width:1340px; height:285px; background-color:#dcdcdc;}
+.dot .dot1{ width:1190px; height:60px; margin:0 auto;}
+.dot1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_25.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.dot1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.dot1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.dot .dot2{ width:1190px; height:225px; margin:0 auto;}
+
+.dot2 .qa{  width:278px; height:225px; float:left;}
+.qa .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_79.png)}
+.qa .bnm{ width:278px; height:70px;}
+.qa .bnm .bnm1{ width:278px; height:35px;}
+.qa .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dot2 .qs{  width:278px; height:225px; float:left; margin-left:26px;}
+.qs .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_82.png)}
+.qs .bnm{ width:278px; height:70px;}
+.qs .bnm .bnm1{ width:278px; height:35px;}
+.qs .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dot2 .qd{  width:278px; height:225px; float:left; margin-left:26px;}
+.qd .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_84.png)}
+.qd .bnm{ width:278px; height:70px; }
+.qd .bnm .bnm1{ width:278px; height:35px;}
+.qd .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dot2 .qf{  width:278px; height:225px; float:left; margin-left:26px;}
+.qf .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_87.png)}
+.qf .bnm{ width:278px; height:70px;}
+.qf .bnm .bnm1{ width:278px; height:35px;}
+.qf .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dnf{  width:1340px; height:285px; background-color:#dcdcdc;}
+.dnf .dnf1{ width:1190px; height:60px; margin:0 auto;}
+.dnf1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_29.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.dnf1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.dnf1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.dnf .dnf2{ width:1190px; height:225px; margin:0 auto;}
+
+.dnf2 .za{  width:278px; height:225px; float:left;}
+.za .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_94.png)}
+.za .bnm{ width:278px; height:70px;}
+.za .bnm .bnm1{ width:278px; height:35px;}
+.za .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dnf2 .zs{  width:278px; height:225px; float:left; margin-left:26px;}
+.zs .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_96.png)}
+.zs .bnm{ width:278px; height:70px;}
+.zs .bnm .bnm1{ width:278px; height:35px;}
+.zs .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dnf2 .zd{  width:278px; height:225px; float:left; margin-left:26px;}
+.zd .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_98.png)}
+.zd .bnm{ width:278px; height:70px; }
+.zd .bnm .bnm1{ width:278px; height:35px;}
+.zd .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.dnf2 .zf{  width:278px; height:225px; float:left; margin-left:26px;}
+.zf .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_99.png)}
+.zf .bnm{ width:278px; height:70px;}
+.zf .bnm .bnm1{ width:278px; height:35px;}
+.zf .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.wangluo{  width:1340px; height:285px; background-color:#dcdcdc;}
+.wangluo .luo1{ width:1190px; height:60px; margin:0 auto;}
+.luo1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_33.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.luo1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.luo1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.wangluo .luo2{ width:1190px; height:225px; margin:0 auto;}
+
+.luo2 .qz{  width:278px; height:225px; float:left;}
+.qz .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_106.png)}
+.qz .bnm{ width:278px; height:70px;}
+.qz .bnm .bnm1{ width:278px; height:35px;}
+.qz .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.luo2 .qx{  width:278px; height:225px; float:left; margin-left:26px;}
+.qx .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_108.png)}
+.qx .bnm{ width:278px; height:70px;}
+.qx .bnm .bnm1{ width:278px; height:35px;}
+.qx .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.luo2 .qc{  width:278px; height:225px; float:left; margin-left:26px;}
+.qc .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_109.png)}
+.qc .bnm{ width:278px; height:70px; }
+.qc .bnm .bnm1{ width:278px; height:35px;}
+.qc .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.luo2 .qv{  width:278px; height:225px; float:left; margin-left:26px;}
+.qv .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_111.png)}
+.qv .bnm{ width:278px; height:70px;}
+.qv .bnm .bnm1{ width:278px; height:35px;}
+.qv .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.jingji{  width:1340px; height:285px; background-color:#dcdcdc;}
+.jingji .ji1{ width:1190px; height:60px; margin:0 auto;}
+.ji1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_37.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.ji1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.ji1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.jingji .ji2{ width:1190px; height:225px; margin:0 auto;}
+
+.ji2 .bg{  width:278px; height:225px; float:left;}
+.bg .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_117.png)}
+.bg .bnm{ width:278px; height:70px;}
+.bg .bnm .bnm1{ width:278px; height:35px;}
+.bg .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ji2 .bh{  width:278px; height:225px; float:left; margin-left:26px;}
+.bh .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_120.png)}
+.bh .bnm{ width:278px; height:70px;}
+.bh .bnm .bnm1{ width:278px; height:35px;}
+.bh .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ji2 .bj{  width:278px; height:225px; float:left; margin-left:26px;}
+.bj .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_123.png)}
+.bj .bnm{ width:278px; height:70px; }
+.bj .bnm .bnm1{ width:278px; height:35px;}
+.bj .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.ji2 .bk{  width:278px; height:225px; float:left; margin-left:26px;}
+.bk .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_126.png)}
+.bk .bnm{ width:278px; height:70px;}
+.bk .bnm .bnm1{ width:278px; height:35px;}
+.bk .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.zahui{  width:1340px; height:285px; background-color:#dcdcdc;}
+.zahui .za1{ width:1190px; height:60px; margin:0 auto;}
+.za1 .one{ width:185px; height:60px; float:left; background:url(images/images/images/images/biao_40.png) no-repeat left;}
+.one span{ float:left; margin-left:30px; margin-top:10px; font-size:30px;}
+.za1 .two{ width:800px; height:18px; float:left;}
+.two li{ float:left; margin-top:20px; margin-left:10px;}
+.za1 .three{ width:85px; height:40px; background-color:#CCCC00; float:right; background:url(images/images/images/images/aa_29.png) no-repeat left;}
+.three h3{ float:left; margin-left:20px; margin-top:5px; font-size:20px; color:red;}
+.zahui .za2{ width:1190px; height:225px; margin:0 auto;}
+
+.za2 .tf{  width:278px; height:225px; float:left;}
+.tf .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_133.png)}
+.tf .bnm{ width:278px; height:70px;}
+.tf .bnm .bnm1{ width:278px; height:35px;}
+.tf .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; background-color:#dcdcdc; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.za2 .tg{  width:278px; height:225px; float:left; margin-left:26px;}
+.tg .mbn{ width:278px; height:155px;  background:url(images/images/images/images/zhong_136.png)}
+.tg .bnm{ width:278px; height:70px;}
+.tg .bnm .bnm1{ width:278px; height:35px;}
+.tg .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px;  float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px;  float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.za2 .th{  width:278px; height:225px; float:left; margin-left:26px;}
+.th .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_138.png)}
+.th .bnm{ width:278px; height:70px; }
+.th .bnm .bnm1{ width:278px; height:35px;}
+.th .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px;  float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+.za2 .tj{  width:278px; height:225px; float:left; margin-left:26px;}
+.tj .mbn{ width:278px; height:155px; background:url(images/images/images/images/zhong_140.png)}
+.tj .bnm{ width:278px; height:70px;}
+.tj .bnm .bnm1{ width:278px; height:35px;}
+.tj .bnm .bnm2{ width:278px; height:35px;}
+.bnm2 .see1{ width:110px; height:35px; float:left; background:url(images/images/images/images/poii_43.png) no-repeat left;}
+.see1 h1{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see2{ width:90px; height:35px; float:left; background:url(images/images/images/images/poii_46.png) no-repeat left;}
+.see2 h2{ margin-left:20px; margin-top:10px; font-size:12px}
+.bnm2 .see3{ width:78px; height:35px; float:left;}
+.see3 h3{ margin-left:20px; margin-top:10px; font-size:12px}
+
+
+.footer{ width:1340px; height:400px; background-color:#282828;}
+.footer .footer1{ height:227px; margin-left:70px;}
+.footer1 .foot1{ height:227px; width:140px; float:left; color:#999999; font-size:18px;}
+.footer1 .foot2{ height:227px; width:150px; float:left; color:#999999; font-size:18px;}
+.footer1 .foot3{ height:227px; width:150px; float:left; color:#999999; padding-top:25px;}
+.footer1 .foot4{ height:227px; width:140px; float:left; color:#999999; padding-top:25px;}
+.footer1 .foot5{ height:227px; width:190px; float:left;}
+.foot5 .qaz{ height:40px; color:#FFFFFF; padding-top:10px;}
+.foot5 .wsx{ height:177px; background:url(images/images/images/images/foo_03.png) no-repeat left;}
+.footer1 .foot6{ height:227px; width:190px; float:left;}
+.foot6 .edc{ height:40px; padding-top:10px; color:#FFFFFF;}
+.foot6 .rfv{ height:177px; background:url(images/images/images/images/foo_05.png) no-repeat left;}
+.footer1 .foot7{ height:227px; width:230px; float:left;}
+.foot7 .tgb{ height:40px; color:#FFFFFF; padding-top:10px;}
+.foot7 .yhn{ height:177px; background:url(images/images/images/images/ok_09.png) no-repeat center;}
+.footer .footer2{ height:173px; background-color:#222222;}
+.footer2 .links{ width:550px; margin:0 auto; padding:30px 0;}
+.footer2 .links a{ padding:0 12px; color:#999999;}
+.footer2 .icp{ width:550px; text-align:center; margin:0 auto; color:#999999;}
+.footer2 img{ margin:0 auto;}

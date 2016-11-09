@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>红绿灯</title>
+</head>
+
+<body>
+<canvas width="600px" height="600px"></canvas>
+<script>
+	var color1="gray";
+	var color2="gray";
+	var color3="gray";
+	var text="";
+	
+	var canvas=document.getElementsByTagName("canvas")[0];
+	var context=canvas.getContext("2d");
+	
+	
+	function show(){
+		context.clearRect(0,0,600,600);
+		
+		var date=new Date();
+		var sec=date.getSeconds();
+		
+		if(sec%3==0){
+			color1="red";
+			color2="gray";
+			color3="gray";	
+			text="红灯停";
+		}else if(sec%3==1){
+			color1="gray";
+			color2="yellow";
+			color3="gray";	
+			text="黄灯亮了等一等";
+		}else if(sec%3==2){
+			color1="gray";
+			color2="gray";
+			color3="green";	
+			text="绿灯行";
+		}
+		
+		
+		light();	
+	}
+	
+	setInterval("show()",1000);
+	
+	
+	function light(){
+	context.fillStyle="#000";
+	context.fillRect(0,0,100,300);
+	
+	context.beginPath();
+	context.fillStyle=color1;
+	context.arc(50,50,40,0,Math.PI*2);
+	context.fill();
+	context.closePath();
+	
+	context.beginPath();
+	context.fillStyle=color2;
+	context.arc(50,150,40,0,Math.PI*2);
+	context.fill();
+	context.closePath();
+	
+	
+	context.beginPath();
+	context.fillStyle=color3;
+	context.arc(50,250,40,0,Math.PI*2);
+	context.fill();
+	context.closePath();
+	
+	
+	context.font="bold 40px 楷体"
+	context.strokeText(text,0,400);
+	}
+</script>
+</body>
+</html>

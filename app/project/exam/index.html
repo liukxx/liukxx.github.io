@@ -1,0 +1,216 @@
+<!doctype html>
+<html ng-app="APP">
+<head>
+<meta charset="utf-8">
+<title>3-1题库-全部题库</title>
+<link rel="stylesheet" type="text/css" href="theme/1/css/common.css">
+<link rel="stylesheet" type="text/css" href="theme/1/css/style.css">
+<link rel="stylesheet" type="text/css" href="theme/1/css/EditingArea.css">
+<link rel="stylesheet" type="text/css" href="theme/1/css/table.css">
+<link rel="stylesheet" type="text/css" href="theme/1/css/icon.css">
+<link rel="stylesheet" type="text/css" href="theme/1/css/zy.css">
+</head>
+
+<body>
+<div class="main">
+	<div id="top">
+    	<div class="top">
+        	<div class="tk_logo"></div>
+            <div class="t_sign">
+            	<span>你好，管理员</span><a href="#" class="t_exit">退出</a>
+            </div>
+            <div class="t_icon">
+            	<ul>
+                	<li><a href="#" class="t1"><span>桌面</span></a></li>
+                    <li><a href="#" class="t2"><span>换肤</span></a></li>
+                    <li><a href="#" class="t3"><span>关于</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="cont">
+    	<div class="centent">
+        	<div class="left c_view">
+            	<ul class="baseUI">
+                	<li><a href="#test"><em class="base_basicset"></em><span>题库</span></a>
+                        <ul>
+                            <li class="current"><a href="#one">全部题目</a></li>
+                            <li><a href="#two">题目管理</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#three"><em class="base_userset"></em><span>试卷管理</span></a>
+                        <ul>
+                            <li><a href="#four">试卷列表</a></li>
+                            <li><a href="#five">手工组卷</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#six"><em class="base_teachergroup"></em><span>考试管理</span></a>
+                        <ul>
+                            <li><a href="#seven">考试列表</a></li>
+                            <li><a href="#eight">考试安排</a></li>
+                        </ul>
+                    </li>
+                   
+                </ul>
+            </div>
+            <div class="right" ng-view>
+            	
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="foot"><a href="#">上海师悦信息科技有限公司</a></div>
+</div>
+<script type="text/javascript" src="frameworks/jquery.js"></script>
+</head><script type="text/javascript" src="frameworks/angular-1.4.0/angular.js"></script>
+</head><script type="text/javascript" src="frameworks/angular-1.4.0/angular-route.min.js"></script>
+<script type="text/javascript">
+    var APP = angular.module("APP", ["ngRoute"]);
+
+    APP.factory("test",function($http){
+      return{
+         getType:function(fn1){
+              $http.get("data/getAllSubjectType.json").success(function(data){
+                    fn1(data);
+              });
+         },
+         getDep:function(fn2){
+              $http.get("data/getAllDepartmentes.json").success(function(data1){
+                    fn2(data1);
+              });
+         },
+        getTop:function(fn3){
+              $http.get("data/getAllTopics.json").success(function(data2){
+                    fn3(data2);
+              });
+         },
+        getLevel:function(fn4){
+              $http.get("data/getAllSubjectLevel.json").success(function(data3){
+                    fn4(data3);
+              });
+         },
+        getSub:function(fn5){
+              $http.get("data/getAllSubjects.json").success(function(data4){
+                    fn5(data4);
+              });
+         }
+      }
+    })
+
+    APP.controller("one",function($scope,test,$location){
+         $scope.addStu=function(){
+          $location.path("/add");
+          //console.log($location.path());
+      }
+      test.getType(function(data){
+       //console.log(data);
+        //$scope.realname = test.getType();
+
+        $scope.types = data; 
+       // console.log($scope.types)
+      });
+      test.getDep(function(data1){
+        //console.log(data1);
+        $scope.types1 = data1;
+      });
+      test.getTop(function(data2){
+       // console.log(data2);
+        $scope.types2 = data2;
+      });
+      test.getLevel(function(data3){
+       // console.log(data3);
+        $scope.types3 = data3;
+      });
+      test.getSub(function(data4){
+       // console.log(data3);
+        $scope.types4 = data4;
+      });
+      $("#chose1").on("click","a",function(){
+       $("#chose1 a").removeClass("active3");
+       $(this).addClass("active3");
+});
+       
+      $("#chose2").on("click","a",function(){
+       $("#chose2 a").removeClass("active3");
+      $(this).addClass("active3");});
+
+      $("#chose3").on("click","a",function(){
+       $("#chose3 a").removeClass("active3");
+      $(this).addClass("active3");});
+
+      $("#chose4").on("click","a",function(){
+       $("#chose4 a").removeClass("active3");
+      $(this).addClass("active3"); });
+
+    })
+    APP.controller("two",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("three",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("four",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("five",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("six",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("seven",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("eight",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+    APP.controller("nine",function($scope,$route,$routeParams){
+      $scope.name = ""
+    })
+     APP.controller("add",function($scope,$route,$routeParams,$http){
+        $scope.name = ""
+       
+    })
+
+    APP.config(function($routeProvider){
+        $routeProvider.when("/one",{
+          templateUrl:"tpls/one.html",
+          controller:"one"
+        }).when("/two",{
+          templateUrl:"tpls/two.html",
+          controller:"two"
+        }).when("/three",{
+          templateUrl:"tpls/three.html",
+          controller:"three"
+        }).when("/four",{
+          templateUrl:"tpls/four.html",
+          controller:"four"
+        }).when("/five",{
+          templateUrl:"tpls/five.html",
+          controller:"five"
+        }).when("/six",{
+          templateUrl:"tpls/six.html",
+          controller:"six"
+        }).when("/seven",{
+          templateUrl:"tpls/seven.html",
+          controller:"seven"
+        }).when("/eight",{
+          templateUrl:"tpls/eight.html",
+          controller:"eight"
+        }).when("/nine",{
+          templateUrl:"tpls/nine.html",
+          controller:"nine"
+        }).when("/add",{
+          templateUrl:"tpls/two.html",
+          controller:"add"
+        }).otherwise({
+          redirectTo:"/"
+        })
+      })
+
+
+</script>
+
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
